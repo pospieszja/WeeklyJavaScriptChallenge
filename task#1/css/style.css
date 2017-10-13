@@ -1,4 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
 body {
     width: 960px;
     margin: 0 auto;
+    background-color: #3F4F5E;
+    color: #D5D4D9;
+    font-family: 'Inconsolata', monospace;
+}
+
+.wrapper {
+    margin: 100px;
+    display: block;
+}
+
+button {
+    background-color: #EF5C6E;
+    color: #D5D4D9;
+    border: 0;
+    font-size: 20px;
+    transition-duration: 0.8s;
+}
+
+button:hover {
+    background-color: #D5D4D9;
+    color: #EF5C6E;
 }
